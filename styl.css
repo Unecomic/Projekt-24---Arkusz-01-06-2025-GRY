@@ -8,8 +8,8 @@ nav{
 
     background-color: indigo;
     text-align: center;
-margin:2px ;
-
+padding:2px ;
+height:100px;
 }
 
 #lewy{
@@ -32,7 +32,7 @@ height: 600px;
      overflow: scroll;
 display: flex;
     text-align: center;
-    margin: 3px;
+    padding: 3px;
 }
 @media (min-width: 801px) {
     main {
@@ -78,9 +78,10 @@ ul{
 
 input[text]{
     padding: 10px;
-    background-color: indigo;
+    color: indigo;
 }
 
 button{
-    color: black;
+    color: indigo;
+
 }
