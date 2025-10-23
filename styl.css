@@ -1,0 +1,86 @@
+*{
+    font-family: garamond;
+    color: white;
+     
+    
+}
+nav{
+
+    background-color: indigo;
+    text-align: center;
+margin:2px ;
+
+}
+
+#lewy{
+background-color: indigo;
+height: 600px;
+
+
+}
+
+
+#prawo{
+
+background-color: indigo;
+height: 600px;
+}
+
+#srodek{
+
+    background-color: black;
+     overflow: scroll;
+display: flex;
+    text-align: center;
+    margin: 3px;
+}
+@media (min-width: 801px) {
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #lewy {
+        width: 20%;
+    }
+
+    #srodek {
+        width: 60%;
+    }
+
+    #prawo {
+        width: 20%;
+    }
+}
+
+
+@media (max-width: 800px) {
+    main {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    #lewy, #srodek, #prawo {
+        width: 100%;
+    }
+}
+
+footer{
+
+
+    background-color: indigo;
+    height: 150px;
+}
+
+ul{
+    margin: 5px;
+}
+
+input[text]{
+    padding: 10px;
+    background-color: indigo;
+}
+
+button{
+    color: black;
+}
